@@ -120,6 +120,35 @@ public class BinaryTree
         return value < root.Value ? SearchRec(root.Left, value) : SearchRec(root.Right, value);
     }
 
+
+    //Leetcode Same tree
+
+    public static string str;
+    public bool IsSameTree(TreeNode p, TreeNode q)
+    {
+        str = "";
+        count = 0;
+        string str1 = InOrder(p).ToString();
+        str = "";
+        count = 0;
+        string str2 = InOrder(q).ToString();
+        Console.WriteLine($"{str1}\n{str2}");
+        return str1 == str2;
+    }
+    public static int count;
+    public string InOrder(TreeNode root)
+    {
+        count++;
+        if (root != null)
+        {
+            InOrder(root.Left);
+            str += $"{root.Value}{count}";
+            InOrder(root.Right);
+        }
+
+        return str;
+    }
+
 }
 
 public class Program
@@ -133,6 +162,11 @@ public class Program
         binaryTree.InOrderTraversal();
         binaryTree.PreOrderTraversal();
         binaryTree.PostOrderTraversal();
+
+        BinaryTree binaryTree1 = new();
+        binaryTree1.Insert(3);
+        binaryTree1.Insert(42);
+        binaryTree1.Insert(32);
         Console.WriteLine();
         Console.WriteLine(binaryTree.Search(32));
         Console.WriteLine(binaryTree.Search(44));
