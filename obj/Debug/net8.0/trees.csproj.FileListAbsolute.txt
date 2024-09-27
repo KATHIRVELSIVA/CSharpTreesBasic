@@ -1,0 +1,14 @@
+D:\SKV\PracticeZA\trees\bin\Debug\net8.0\trees.exe
+D:\SKV\PracticeZA\trees\bin\Debug\net8.0\trees.deps.json
+D:\SKV\PracticeZA\trees\bin\Debug\net8.0\trees.runtimeconfig.json
+D:\SKV\PracticeZA\trees\bin\Debug\net8.0\trees.dll
+D:\SKV\PracticeZA\trees\bin\Debug\net8.0\trees.pdb
+D:\SKV\PracticeZA\trees\obj\Debug\net8.0\trees.GeneratedMSBuildEditorConfig.editorconfig
+D:\SKV\PracticeZA\trees\obj\Debug\net8.0\trees.AssemblyInfoInputs.cache
+D:\SKV\PracticeZA\trees\obj\Debug\net8.0\trees.AssemblyInfo.cs
+D:\SKV\PracticeZA\trees\obj\Debug\net8.0\trees.csproj.CoreCompileInputs.cache
+D:\SKV\PracticeZA\trees\obj\Debug\net8.0\trees.dll
+D:\SKV\PracticeZA\trees\obj\Debug\net8.0\refint\trees.dll
+D:\SKV\PracticeZA\trees\obj\Debug\net8.0\trees.pdb
+D:\SKV\PracticeZA\trees\obj\Debug\net8.0\trees.genruntimeconfig.cache
+D:\SKV\PracticeZA\trees\obj\Debug\net8.0\ref\trees.dll
